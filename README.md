@@ -40,8 +40,9 @@ I create libraries and applications that are easy to use for both users and deve
 
 ![image](https://img.shields.io/badge/Apple-MacBook_Pro_14"-999999?style=for-the-badge&logo=apple&logoColor=white)
 
-![image](https://github-readme-stats.vercel.app/api?username=KlyuchnikovV&theme=blue-green)
+## Some statistics
 
+![image](https://github-readme-stats.vercel.app/api?username=KlyuchnikovV&theme=blue-green)
 ![image](https://github-readme-stats.vercel.app/api/top-langs/?username=KlyuchnikovV&theme=blue-green)
 
 <!--
