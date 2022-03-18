@@ -8,6 +8,8 @@ I create libraries and applications that are easy to use for both users and deve
 
 🌱 I’m currently learning frontend (for now it's Svelte - can be found [here](https://github.com/KlyuchnikovV/edicode), but also tried React)
 
+
+
 ## Socials
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:valeriy.v.klyuchnikov@gmail.com)
@@ -40,8 +42,11 @@ I create libraries and applications that are easy to use for both users and deve
 
 ![image](https://img.shields.io/badge/Apple-MacBook_Pro_14"-999999?style=for-the-badge&logo=apple&logoColor=white)
 
-![image](https://github-readme-stats.vercel.app/api?username=KlyuchnikovV&theme=blue-green)
+## Some statistics
 
+![Views](https://komarev.com/ghpvc/?username=KlyuchnikovV&style=for-the-badge)
+
+![image](https://github-readme-stats.vercel.app/api?username=KlyuchnikovV&theme=blue-green)
 ![image](https://github-readme-stats.vercel.app/api/top-langs/?username=KlyuchnikovV&theme=blue-green)
 
 <!--
