@@ -4,7 +4,7 @@ I'm Valeriy, Golang backend developer interested in both backend and frontend, C
 
 I create libraries and applications that are easy to use for both users and developers.
 
-🔭 I’m currently working on [WebApi](https://github.com/KlyuchnikovV/webapi) library.
+🔭 I’m currently working on [Engi](https://github.com/KlyuchnikovV/engi) library.
 
 🌱 I’m currently learning frontend (for now it's Svelte - can be found [here](https://github.com/KlyuchnikovV/edicode), but also tried React)
 
