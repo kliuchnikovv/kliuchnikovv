@@ -1,13 +1,12 @@
 ## Hi there 👋
 
-I'm Valeriy, Golang backend developer interested in both backend and frontend, CI setup (mainly Gitlab-CI and Github Actions).
+I'm Valerii, a Software Engineer with more than 6 years of commercial experience within fintech, e-commerce and blockchain industries, I specialize in developing reliable, scalable, and maintainable solutions, leveraging my technical expertise. With a diverse background that spans from building CRM and manufacturing planning systems to working on blockchain and fintech platforms, I bring both technical acumen and a deep understanding of business needs to create highly efficient, stable products designed to address real-world business challenges.
 
-I create libraries and applications that are easy to use for both users and developers.
+🔭 Now, in my free time, I specialize in developing tools aimed at easy integration into a project and support by developers (you can check [Engi framework](https://github.com/KlyuchnikovV/engi) with its [example repo](https://github.com/KlyuchnikovV/engi-example))
 
-🔭 I’m currently working on [Engi](https://github.com/KlyuchnikovV/engi) library.
+I'm interested mostly in backend and CI setup and improvement (mainly Gitlab-CI and Github Action, [Telegram Notify](https://github.com/KlyuchnikovV/telegram-notify) for example), but sometimes try to create some frontend applications just for fun.
 
-🌱 I’m currently learning frontend (for now it's Svelte - can be found [here](https://github.com/KlyuchnikovV/edicode), but also tried React)
-
+🌱 I’ve started learning frontend but have no time for it right now:( (Svelte - can be found [here](https://github.com/KlyuchnikovV/edicode), but also tried React)
 
 
 ## Socials
@@ -22,21 +21,18 @@ I create libraries and applications that are easy to use for both users and deve
 ![Svelte](https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00)
 
 ![GitLab CI](https://img.shields.io/badge/gitlab%20ci-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-![Github Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![DroneCI](https://img.shields.io/badge/Drone_CI-212121?style=for-the-badge&logo=drone&logoColor=white)
 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 
 ![Insomnia](https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white)
-
-
+![gRPC](https://img.shields.io/badge/grpc-%230db7ed.svg?style=for-the-badge&logo=grpc&logoColor=white)
 
 ## Workstation
 
@@ -46,21 +42,5 @@ I create libraries and applications that are easy to use for both users and deve
 
 ![Views](https://komarev.com/ghpvc/?username=KlyuchnikovV&style=for-the-badge)
 
-![image](https://github-readme-stats.vercel.app/api?username=KlyuchnikovV&theme=blue-green)
 ![image](https://github-readme-stats.vercel.app/api/top-langs/?username=KlyuchnikovV&theme=blue-green)
-
-<!--
-**KlyuchnikovV/KlyuchnikovV** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
+![image](https://github-readme-stats.vercel.app/api?username=KlyuchnikovV&theme=blue-green)
