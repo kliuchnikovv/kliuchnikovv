@@ -2,18 +2,18 @@
 
 I'm Valerii, a Software Engineer with more than 6 years of commercial experience within fintech, e-commerce and blockchain industries, I specialize in developing reliable, scalable, and maintainable solutions, leveraging my technical expertise. With a diverse background that spans from building CRM and manufacturing planning systems to working on blockchain and fintech platforms, I bring both technical acumen and a deep understanding of business needs to create highly efficient, stable products designed to address real-world business challenges.
 
-🔭 Now, in my free time, I specialize in developing tools aimed at easy integration into a project and support by developers (you can check [Engi framework](https://github.com/KlyuchnikovV/engi) with its [example repo](https://github.com/KlyuchnikovV/engi-example))
+🔭 Now, in my free time, I specialize in developing tools aimed at easy integration into a project and support by developers (you can check [Engi framework](https://github.com/kliuchnikovv/engi) with its [example repo](https://github.com/kliuchnikovv/engi-example))
 
-I'm interested mostly in backend and CI setup and improvement (mainly Gitlab-CI and Github Action, [Telegram Notify](https://github.com/KlyuchnikovV/telegram-notify) for example), but sometimes try to create some frontend applications just for fun.
+I'm interested mostly in backend and CI setup and improvement (mainly Gitlab-CI and Github Action, [Telegram Notify](https://github.com/kliuchnikovv/telegram-notify) for example), but sometimes try to create some frontend applications just for fun.
 
-🌱 I’ve started learning frontend but have no time for it right now:( (Svelte - can be found [here](https://github.com/KlyuchnikovV/edicode), but also tried React)
+🌱 I’ve started learning frontend but have no time for it right now:( (Svelte - can be found [here](https://github.com/kliuchnikovv/edicode), but also tried React)
 
 
 ## Socials
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:valeriy.v.klyuchnikov@gmail.com)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/klyuchnikovv)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/klyuchnikovv/?locale=en_US)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kliuchnikovvalerii@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/kliuchnikovv)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/KlyuchnikovV/?locale=en_US)
 
 ## Technologies
 
@@ -40,7 +40,7 @@ I'm interested mostly in backend and CI setup and improvement (mainly Gitlab-CI 
 
 ## Some statistics
 
-![Views](https://komarev.com/ghpvc/?username=KlyuchnikovV&style=for-the-badge)
+![Views](https://komarev.com/ghpvc/?username=kliuchnikovv&style=for-the-badge)
 
-![image](https://github-readme-stats.vercel.app/api/top-langs/?username=KlyuchnikovV&theme=blue-green)
-![image](https://github-readme-stats.vercel.app/api?username=KlyuchnikovV&theme=blue-green)
+![image](https://github-readme-stats.vercel.app/api/top-langs/?username=kliuchnikovv&theme=blue-green)
+![image](https://github-readme-stats.vercel.app/api?username=kliuchnikovv&theme=blue-green)
