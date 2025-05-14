@@ -2,14 +2,14 @@
 
 ## 📑 Table of Contents
 <!-- TOC -->
-- [About Me](#-AboutMe)
+- [About](#-About)
 - [Socials](#-Socials)
 - [Projects](#-Projects)
 - [Technologies](#-Technologies)
 - [Statistics](#-Statistics)
 <!-- /TOC -->
 
-## 🙋‍♂️ AboutMe
+## 🙋‍♂️ About
 
 I'm Valerii, a Software Engineer with more than 7 years of commercial experience within banking, fintech, e-commerce and blockchain industries, I specialize in developing reliable, scalable, and maintainable solutions, leveraging my technical expertise. With a diverse background that spans from building CRM and manufacturing planning systems to working on blockchain, fintech platforms and banking, I bring both technical acumen and a deep understanding of business needs to create highly efficient, stable products designed to address real-world business challenges.
 
@@ -46,7 +46,7 @@ I'm interested mostly in backend and CI setup and improvement (mainly Gitlab-CI 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![gRPC](https://img.shields.io/badge/grpc-%230db7ed.svg?style=for-the-badge&logo=grpc&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?logo=apache-kafka&logoColor=white&style=for-the-badge)
-![Google Cloud Platform](https://img.shields.io/badge/-Google%20Cloud%20Platform-4285F4?logo=google+cloud&logoColor=white&style=flat)
+![Google Cloud Platform](https://img.shields.io/badge/-Google%20Cloud%20Platform-4285F4?logo=google+cloud&logoColor=white&style=for-the-badge)
 
 ![Insomnia](https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
