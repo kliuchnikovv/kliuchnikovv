@@ -30,7 +30,7 @@ I'm interested mostly in backend and CI setup and improvement (mainly Gitlab-CI 
 - **[Telegram Notify](https://github.com/kliuchnikovv/telegram-notify)** – Github-Action for notifications via Telegram messenger.
 - **[Edicode](https://github.com/kliuchnikovv/edicode)** – experimental app based on Svelte.
 
-## Technologies
+## 🛠️ Technologies
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Svelte](https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00)
@@ -51,11 +51,11 @@ I'm interested mostly in backend and CI setup and improvement (mainly Gitlab-CI 
 ![Insomnia](https://img.shields.io/badge/Insomnia-5849be?style=for-the-badge&logo=Insomnia&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 
-## Workstation
+## 💻 Workstation
 
 ![image](https://img.shields.io/badge/Apple-MacBook_Pro_14"-999999?style=for-the-badge&logo=apple&logoColor=white)
 
-## Some statistics
+## 📈 Statistics
 
 ![Views](https://komarev.com/ghpvc/?username=kliuchnikovv&style=for-the-badge)
 
