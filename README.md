@@ -22,6 +22,7 @@ I'm interested mostly in backend and CI setup and improvement (mainly Gitlab-CI 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:valeriy.v.klyuchnikov@gmail.com)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/kliuchnikovv)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kliuchnikovv/?locale=en_US)
+[![RemoteOK](https://img.shields.io/badge/RemoteOK-Available-blue?style=for-the-badge)](https://rok.co/@kliuchnikovv)
 
 
 ## 🚀 Projects
