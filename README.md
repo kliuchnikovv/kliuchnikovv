@@ -40,10 +40,10 @@ I build **production backend systems in Go** — 9 years across fintech, AI tool
 
 | Project | What it is |
 |---------|-----------|
+| **[engi](https://github.com/kliuchnikovv/engi)** | Lightweight Go HTTP framework — declarative routing, automatic parameter validation, auth/CORS middleware, OpenTelemetry tracing, auto-generated OpenAPI docs. |
 | **[nomi](https://github.com/kliuchnikovv/nomi)** | AI-agent ecosystem — Go API gateway + Python (Agno) agent orchestration + a React Native app, with a plugin system and real-time WebSocket streaming. |
 | **[keystone](https://github.com/kliuchnikovv/keystone)** | Local-first smart-home hub that reimplements the core of Home Assistant on bare **ESP32** (C++ / ESP-IDF), across several chips in one enclosure — plus a Go remote-access relay and an Expo app. |
 | **[dnd](https://github.com/kliuchnikovv/dnd)** | A console detective RPG where a **deterministic Go rules engine** decides what is true and language models only narrate. Reproducible from `(seed, input)`; 1200+ tests, 10 ADRs. |
-| **[Decker](https://github.com/kliuchnikovv/decker)** | DIY portable **ESP32 cyberdeck** and a self-hosted, local-first smart home — custom firmware, local automation. |
 
 ### Off the clock
 
