@@ -42,20 +42,9 @@ I build **production backend systems in Go** — 9 years across fintech, AI tool
 |---------|-----------|
 | **[nomi](https://github.com/kliuchnikovv/nomi)** | AI-agent ecosystem — Go API gateway + Python (Agno) agent orchestration + a React Native app, with a plugin system and real-time WebSocket streaming. |
 | **[keystone](https://github.com/kliuchnikovv/keystone)** | Local-first smart-home hub that reimplements the core of Home Assistant on bare **ESP32** (C++ / ESP-IDF), across several chips in one enclosure — plus a Go remote-access relay and an Expo app. |
-| **[Дознание (dnd)](https://github.com/kliuchnikovv/dnd)** | A console detective RPG where a **deterministic Go rules engine** decides what is true and language models only narrate. Reproducible from `(seed, input)`; 1200+ tests, 10 ADRs. |
+| **[dnd](https://github.com/kliuchnikovv/dnd)** | A console detective RPG where a **deterministic Go rules engine** decides what is true and language models only narrate. Reproducible from `(seed, input)`; 1200+ tests, 10 ADRs. |
 | **[Decker](https://github.com/kliuchnikovv/decker)** | DIY portable **ESP32 cyberdeck** and a self-hosted, local-first smart home — custom firmware, local automation. |
 | **[telegram-notify](https://github.com/kliuchnikovv/telegram-notify)** | A GitHub Action for Telegram notifications. |
-
-### GitHub
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kliuchnikovv&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=transparent&title_color=00ADD8&icon_color=00ADD8#gh-light-mode-only" alt="stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kliuchnikovv&layout=compact&hide_border=true&langs_count=8&theme=transparent&title_color=00ADD8#gh-light-mode-only" alt="top languages">
-</div>
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kliuchnikovv&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=github_dark&bg_color=00000000&title_color=00ADD8&icon_color=00ADD8#gh-dark-mode-only" alt="stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kliuchnikovv&layout=compact&hide_border=true&langs_count=8&theme=github_dark&bg_color=00000000&title_color=00ADD8#gh-dark-mode-only" alt="top languages">
-</div>
 
 ### Off the clock
 
