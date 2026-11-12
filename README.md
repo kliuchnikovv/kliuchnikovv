@@ -40,7 +40,7 @@ I build **production backend systems in Go** — 9 years across fintech, AI tool
 
 | Project | What it is |
 |---------|-----------|
-| **[engi](https://github.com/kliuchnikovv/engi)** | Lightweight Go HTTP framework — declarative routing, automatic parameter validation, auth/CORS middleware, OpenTelemetry tracing, auto-generated OpenAPI docs and graceful shutdown. |
+| **[engi](https://github.com/kliuchnikovv/engi)** | Lightweight Go HTTP framework — declarative routing, automatic parameter validation, auth/CORS middleware, OpenTelemetry tracing and graceful shutdown. |
 | **[nomi](https://github.com/kliuchnikovv/nomi)** | AI-agent ecosystem — Go API gateway + Python (Agno) agent orchestration + a React Native app, with a plugin system and real-time WebSocket streaming. |
 | **[keystone](https://github.com/kliuchnikovv/keystone)** | Local-first smart-home hub that reimplements the core of Home Assistant on bare **ESP32** (C++ / ESP-IDF), across several chips in one enclosure — plus a Go remote-access relay and an Expo app. |
 | **[dnd](https://github.com/kliuchnikovv/dnd)** | A **mobile** detective RPG where a **deterministic Go rules engine** decides what is true and language models only narrate. Reproducible from `(seed, input)`; 1200+ tests, 10 ADRs. |
@@ -52,6 +52,7 @@ ESP32 microelectronics · 3D printing · RC aircraft · agentic tooling built wi
 ---
 
 <p align="center">
+  <a href="mailto:valeriy.v.klyuchnikov@gmail.com"><img src="https://img.shields.io/badge/Email-valeriy.v.klyuchnikov@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="mailto:kliuchnikovv@icloud.com"><img src="https://img.shields.io/badge/Email-kliuchnikovv@icloud.com-D14836?style=flat-square&logo=icloud&logoColor=white" alt="Email"></a>
   <a href="https://linkedin.com/in/kliuchnikovv"><img src="https://img.shields.io/badge/LinkedIn-kliuchnikovv-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://t.me/kliuchnikovv"><img src="https://img.shields.io/badge/Telegram-@kliuchnikovv-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"></a>
