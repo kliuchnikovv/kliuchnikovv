@@ -1,0 +1,168 @@
+% LaTeX Resume Template based on provided PDF
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% ModernCV themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% Character encoding
+\usepackage[utf8]{inputenc}
+
+% Adjust margins
+\usepackage[scale=0.85]{geometry}
+
+% for paging
+\usepackage{lastpage}
+
+% Tighter itemize spacing
+\usepackage{enumitem}
+\setlist[itemize]{nosep,leftmargin=*}
+
+% Prevent orphan section headings — reserve space before each section
+\usepackage{needspace}
+\let\origsection\section
+\renewcommand{\section}[1]{\needspace{3\baselineskip}\origsection{#1}}
+
+% Personal Information
+\name{Valerii}{Kliuchnikov}
+\title{Senior Software Engineer}
+\address{Barcelona, Spain (Remote)}{}{}
+\email{valeriy.v.klyuchnikov@gmail.com}
+\social[linkedin]{kliuchnikovv}
+\social[github]{kliuchnikovv}
+\social[telegram]{kliuchnikovv}
+
+\begin{document}
+
+\makecvtitle
+
+%------------------------------------------------------------------------------
+% Profile / Summary
+%------------------------------------------------------------------------------
+\section{Profile}
+\cvitem{}{Senior Software Engineer (Go) with 9 years shipping production backend systems across fintech,
+    AI tooling, and social platforms. Currently at Playneta building real-time LLM infrastructure at
+    9.6M messages/mo; previously delivered enterprise RBAC and payment systems at 2M+ daily
+    transactions and 10K+ checks/sec with zero-downtime migrations for 1M+ users. Author of
+    Engi, an open-source Go HTTP framework. Hands-on technical leadership: system design, 30+
+    technical interviews, 3 engineers mentored. Based in Barcelona, open to remote roles in EU and North America.}
+
+%------------------------------------------------------------------------------
+% Technical Skills
+%------------------------------------------------------------------------------
+\section{Technical Skills}
+\cvitem{Languages:}{Go, SQL, Python, TypeScript}
+\cvitem{Backend:}{Microservices, REST, gRPC, Protobuf, Gin, Echo, GORM, Wire DI, DDD, FastAPI, Strawberry}
+\cvitem{Data:}{PostgreSQL, ScyllaDB, Cassandra, Redis}
+\cvitem{Messaging:}{Kafka, Redpanda, RabbitMQ, asynq}
+\cvitem{AI/LLM:}{MCP, OpenRouter, multi-model routing, Agno, Claude Code}
+\cvitem{DevOps:}{GCP, Kubernetes, Helm, Docker, GitLab CI, GitHub Actions}
+\cvitem{Observability:}{Prometheus, Grafana, OpenTelemetry}
+\cvitem{Security:}{OAuth 2.0, JWT, RBAC}
+\cvitem{Compliance:}{GDPR, PCI DSS}
+
+%------------------------------------------------------------------------------
+% Professional Experience
+%------------------------------------------------------------------------------
+\section{Professional Experience}
+
+% Playneta — split into two cventry blocks to let LaTeX break the page between them
+\cventry{May 2026 -- Present}{Senior Software Engineer}{B2B Contract, Playneta Limited}{Nicosia, Cyprus}{Remote}{
+  \begin{itemize}
+    \item Owned system design and API development for a real-time LLM chat translation service in Go: $\sim$10M messages/mo at sub-second median end-to-end; auto-detection across 26 source languages, targets selected dynamically from conversation roster; two-stage pipeline (Kafka consumer $\rightarrow$ asynq worker) hardened against hallucinations, truncation and concurrent updates
+    \item Cost-optimised two-model LLM routing via OpenRouter (Gemini 2.5 Flash Lite primary, GPT-4.1 Nano fallback) with per-model circuit breaker and Redis cross-message cache, keeping total LLM spend under \$600/month ($\sim$0.3\% of platform revenue); full per-translation provenance (model, tokens, cost, latency) in Cassandra and Kafka events
+    \item Translation infra reliability: LLM worker processes $\sim$5M tasks/week at 99.99\%+ success; HTTP API sustains 99.99\%+ success at p99 read under 200ms; Helm-based Kubernetes with HPA across API, shared-consumer and worker pools
+    \item Built a platform-wide UGC moderation service from scratch using strict DDD layering (Postgres + ScyllaDB + Redis, Wire DI); rule-based engine (Aho-Corasick dictionary + regex for contacts/links) covering nicknames, bio, club name/status and chat messages across 5 content types; bulk dictionary API with versioning, per-field rejection codes and a userId-scoped check endpoint
+    \item Moderation serves $\sim$100K checks/day at p99 under 15ms --- well within the client fail-open deadline --- with zero errors; integrated into user, chat and clubs so all text UGC and anti-spam routes through a single moderation path
+  \end{itemize}}
+
+\cventry{}{}{}{}{}{
+  \begin{itemize}
+    \item Designed and shipped a reusable DLQ layer for Redpanda consumers in the shared go-kiss2 library; adopted across 4 services (chat, clubs, translation, migration), eliminating silent message loss and capturing $\sim$2K failed messages/day into a single versioned dlq topic for triage and replay
+    \item At-least-once semantics with per-group self-replay, configurable ReplayDelay/MaxReplays and a dedicated dlq.parked topic for exhausted messages; opt-in Permanent error marker lets handlers short-circuit non-retryable failures (schema violations, poison payloads) straight to parked, bypassing retry loops
+  \end{itemize}}
+
+\cventry{August 2025 -- April 2026}{Senior Software Engineer}{B2B Contract, Refact.ai}{London, UK}{Remote}{
+  \begin{itemize}
+    \item Built MCP server infrastructure on Kubernetes (isolated pod-per-integration
+      model), declarative JSON preset system (0 → 30+ connectors: Slack, GitHub,
+      Notion, Stripe, Supabase, Discord, etc.), and in-chat setup flow ---
+      reducing integration onboarding from manual k8s configuration to minutes
+    \item Designed and shipped a complete OAuth 2.0 and token-based authorization
+      framework covering 10+ external service providers (GitHub, Shopify, Google,
+      and others)
+    \item Authored \texttt{flexus-client-kit} --- a Python SDK for agent developers
+      with 15+ integration connectors (Gmail, Google Calendar/Sheets, Slack, GitHub,
+      Jira, Telegram, Shopify, etc.) and abstractions for MCP tool registration,
+      service lifecycle, and external auth flows
+  \end{itemize}}
+
+\cventry{May 2024 -- July 2025}{Senior Software Engineer}{Ozon Bank}{Moscow, Russia}{Remote}{
+  \begin{itemize}
+    \item Led system design and delivery of a Go-based RBAC platform (PostgreSQL, Redis, Kafka) serving 1M+ enterprise users under financial-regulator compliance; zero-downtime migration completed in 4 months, lifting permission-assignment success rate by 50\%
+    \item Built an automated data-sync pipeline in Go for 200K legal entities using event-driven architecture (Kafka + gRPC), cutting manual data updates by 60\% and reducing staleness by 75\%
+    \item Architected a high-throughput notification service (Go, Kafka, PostgreSQL) processing 1M+ alerts/day at 99.9\% uptime across multiple consumer groups
+    \item Extended RBAC with real-time transaction-limit enforcement --- 10K+ checks/sec over 1M active accounts --- reducing limit-breach errors by 90\%; designed for horizontal scaling on Kubernetes
+    \item Conducted 30+ technical interviews, defined hiring rubrics, and mentored 3 engineers through structured onboarding, cutting ramp-up time by 40\%
+\end{itemize}}
+
+\cventry{May 2022 -- May 2024}{Software Engineer}{Quadcode}{Larnaca, Cyprus}{Hybrid}{
+  \begin{itemize}
+    \item Owned Go payment services layer (Redis, PostgreSQL, Kafka) processing up to 1M transactions/day across multiple crypto and fiat providers; optimised concurrency patterns cutting server load by 40\% and reducing pipeline maintenance costs by 70\%
+    \item Prototyped an advanced Crypto Payment Provider integration, securing executive approval and rolling it out to three teams
+    \item Designed a declarative integration framework that reduced new payment-provider onboarding from 2 weeks to 1 week
+    \item Rebuilt GitLab CI with precommit hooks, accelerating pipelines by 20\% and tightening code review cycles by 90\%
+    \item Delivered GDPR-compliant anonymization and PCI DSS tokenization services from scratch
+  \end{itemize}}
+
+\cventry{Mar 2020 -- May 2022}{Software Engineer}{ProCSy}{Moscow, Russia}{Remote}{
+  \begin{itemize}
+    \item Built 10+ Hyperledger Fabric smart contracts, automating workflows and reducing manual reconciliation by 70\%
+    \item Established an SMTP mailing system handling 10K+ daily emails at 98\% delivery rate
+    \item Decomposed a monolithic application into 6 microservices, cutting deployment time from 30 to 5 minutes
+    \item Automated CI pipelines with GitLab CI and golangci-lint, achieving 90\% reduction in feedback cycles
+  \end{itemize}}
+
+\cventry{Jan 2018 -- Mar 2020}{Junior Software Engineer}{ITMO University}{Saint Petersburg, Russia}{Hybrid}{
+  \begin{itemize}
+    \item Developed a modular resource-visualization system (Go, OOP) and a GORM-based relational schema for an internal simulation platform used in research courseware
+  \end{itemize}}
+
+%------------------------------------------------------------------------------
+% Projects
+%------------------------------------------------------------------------------
+\section{Projects}
+\cvitem{Engi}{Lightweight Go HTTP framework: declarative routing, structured services, automatic parameter
+    validation, auth and CORS middleware, OpenTelemetry tracing — and auto-generated OpenAPI
+    documentation derived from route declarations. Open-source; GoDoc, CI, Go Report Card. \newline{}
+    \faGithub\ \href{https://github.com/kliuchnikovv/engi}{\texttt{github.com/kliuchnikovv/engi}}}
+\cvitem{Nomi}{End-to-end personal AI agent system: Go/Gin API gateway, Python/Agno agent orchestration
+    (tool use, multi-agent teams), React Native mobile client. Plugin architecture — Gmail, Calendar,
+    GitHub, Slack connectors. Deployed on Railway with Docker; 1,700+ commits. \newline{}
+    \faGithub\ \href{https://github.com/kliuchnikovv/nomi}{\texttt{github.com/kliuchnikovv/nomi}}}
+\cvitem{Keystone}{Local-first smart-home hub on ESP32 (C++/ESP-IDF): multi-chip architecture — brain (S3) runs
+    the entity registry, state machine and rules engine; radio co-processors handle Zigbee (C6), Matter
+    and BLE. Go relay server bridges hub to internet. React Native mobile app over authenticated
+    WebSocket/JSON protocol. OTA firmware updates. \newline{}
+    \faGithub\ \href{https://github.com/kliuchnikovv/keystone}{\texttt{github.com/kliuchnikovv/keystone}}}
+\cvitem{DnD}{Detective RPG with a deterministic Go rules engine and an LLM narrator (OpenRouter/Anthropic).
+    Trust-boundary architecture: model only narrates what the core decided — zero hallucinated
+    facts. HTTP/WebSocket server, React Native mobile client (iOS-first), pluggable rule systems
+    (D\&D 5e, Cyberpunk RED). 188K lines Go, 1,211 tests, 10 ADRs. \newline{}
+    \faGithub\ \href{https://github.com/kliuchnikovv/dnd}{\texttt{github.com/kliuchnikovv/dnd}}}
+
+%------------------------------------------------------------------------------
+% Education
+%------------------------------------------------------------------------------
+\section{Education}
+\cventry{Sep 2015 -- Jun 2019}{Bachelor of Science in Software Engineering\newline{}\textit{Faculty of Software Engineering and Computer Systems}}{ITMO University}{Saint Petersburg, Russia}{}{}
+
+%------------------------------------------------------------------------------
+% Additional Information
+%------------------------------------------------------------------------------
+\section{Additional Information}
+\cvitem{Languages}{Russian --- Native\newline{}
+    English --- Professional working proficiency}
+\cvitem{Interests}{3D modelling \& printing, RC aircraft \& cars, tabletop RPG, smart home, gaming}
+
+\end{document}
