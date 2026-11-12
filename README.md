@@ -44,7 +44,6 @@ I build **production backend systems in Go** — 9 years across fintech, AI tool
 | **[keystone](https://github.com/kliuchnikovv/keystone)** | Local-first smart-home hub that reimplements the core of Home Assistant on bare **ESP32** (C++ / ESP-IDF), across several chips in one enclosure — plus a Go remote-access relay and an Expo app. |
 | **[dnd](https://github.com/kliuchnikovv/dnd)** | A console detective RPG where a **deterministic Go rules engine** decides what is true and language models only narrate. Reproducible from `(seed, input)`; 1200+ tests, 10 ADRs. |
 | **[Decker](https://github.com/kliuchnikovv/decker)** | DIY portable **ESP32 cyberdeck** and a self-hosted, local-first smart home — custom firmware, local automation. |
-| **[telegram-notify](https://github.com/kliuchnikovv/telegram-notify)** | A GitHub Action for Telegram notifications. |
 
 ### Off the clock
 
